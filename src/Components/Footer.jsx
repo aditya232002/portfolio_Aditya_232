@@ -9,13 +9,12 @@
  */
 import React from "react";
 import PropTypes from "prop-types";
-
 import devDotToIcon from "../images/socials/devdotto.svg";
 import envelopeIcon from "../images/socials/envelope.svg";
 import gitHubIcon from "../images/socials/github.svg";
 import instagramIcon from "../images/socials/instagram.svg";
 import linkedInIcon from "../images/socials/linkedin.svg";
-import mediumIcon from "../images/socials/medium.svg";
+import hashnodeIcon from "../images/socials/hashnode.svg";
 import twitterIcon from "../images/socials/twitter.svg";
 import youTubeIcon from "../images/socials/youtube.svg";
 
@@ -33,12 +32,12 @@ const Footer = (props) => {
     gitHub,
     instagram,
     linkedIn,
-    medium,
+    hashnode,
     name,
     primaryColor,
     twitter,
     youTube,
-  } = props;
+  } = props
 
   return (
     <div
@@ -93,9 +92,9 @@ const Footer = (props) => {
             <img src={linkedInIcon} alt="LinkedIn" className="socialIcon" />
           </a>
         )}
-        {medium && (
-          <a href={`https://medium.com/@${medium}`} target="_blank" rel="noopener noreferrer">
-            <img src={mediumIcon} alt="Medium" className="socialIcon" />
+        {hashnode && (
+          <a href={`https://hashnode.com/@${hashnode}`} target="_blank" rel="noopener noreferrer">
+            <img src={hashnodeIcon} alt="Medium" className="socialIcon" />
           </a>
         )}
         {twitter && (
@@ -130,7 +129,7 @@ Footer.propTypes = {
   gitHub: PropTypes.string,
   instagram: PropTypes.string,
   linkedIn: PropTypes.string,
-  medium: PropTypes.string,
+  hashnode: PropTypes.string,
   name: PropTypes.string.isRequired,
   primaryColor: PropTypes.string,
   twitter: PropTypes.string,

@@ -31,35 +31,35 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Automatic Number Plate Recognition (ANPR)",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A Python based project that uses OpenCV and Pytesseract to recognize the number plate of a vehicle.",
+    url: "https://github.com/aditya232002/ANPR",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Car Rental System",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Our C++ software streamlines car rentals, making reservations easy for tourists, travel agencies, and private visitors.",
+    url: "https://github.com/aditya232002/Car-rental-system-",
   },
   {
-    title: "My Resume Site",
+    title: "plant-light Monitoring System",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "This device enhances production for farmers and industries like Haldiram and Tirumala by optimizing light intensity.",
+    url: "https://github.com/aditya232002/Plant_light_monitor",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "IoT-Website",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "A website that displays all about IoT and its applications. ",
+    url: "https://github.com/aditya232002/IoT-website",
   },
 ];
 
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
+      <h2 style={{ textAlign: "center" }}>Projects</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
